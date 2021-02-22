@@ -31,8 +31,41 @@ app.get('/api/v1/hydration', (req, res) => {
 });
 
 app.get('/api/v1/sleep', (req, res) => {
-  res.status(200).json(app.locals.hydration);
+  res.status(200).json(app.locals.sleep);
 });
+
+
+app.post('/api/v1/sleep', (req, res) => {
+  const requiredParams = ['userID', 'date', 'hoursSlept', 'sleepQuality'];
+  const newSleepEntry = req.body;
+  console.log(newSleepEntry)
+  checkUserExists(newSleepEntry.userID, res);
+  checkHasAllParams(requiredParams, newSleepEntry, res);
+
+  app.locals.sleep = [...app.locals.sleep, newSleepEntry];
+  res.status(201).json(app.locals.sleep);
+});
+// activityData: ['userID', 'date', 'flightsOfStairs', 'minutesActive', 'numSteps'],
+// hydrationData: ['userID', 'date', 'numOunces'],
+
+function checkUserExists(userID, response) {
+  const user = users.userData.find(user => user['id'] === userID)
+  if (!user) {
+    return response.status(422).json({
+      message: `No user found with ID of ${userID}`
+    });
+  } 
+}
+
+function checkHasAllParams(requiredParams, newData, response) {
+  for (let requiredParam of requiredParams) {
+    if (newData[requiredParameter] === undefined) {
+      return response.status(422).json({
+        message: `You are missing a required parameter of ${requiredParameter}`
+      });
+    }
+  }
+}
 
 
 app.listen(port, () => {
