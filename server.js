@@ -38,18 +38,35 @@ app.get('/api/v1/sleep', (req, res) => {
 app.post('/api/v1/sleep', (req, res) => {
   const requiredParams = ['userID', 'date', 'hoursSlept', 'sleepQuality'];
   const newSleepEntry = req.body;
-  console.log(newSleepEntry)
   checkUserExists(newSleepEntry.userID, res);
   checkHasAllParams(requiredParams, newSleepEntry, res);
 
-  app.locals.sleep = [...app.locals.sleep, newSleepEntry];
-  res.status(201).json(app.locals.sleep);
+  app.locals.sleep.sleepData.push(newSleepEntry);
+  res.status(201).json(newSleepEntry);
 });
-// activityData: ['userID', 'date', 'flightsOfStairs', 'minutesActive', 'numSteps'],
-// hydrationData: ['userID', 'date', 'numOunces'],
+
+app.post('/api/v1/hydration', (req, res) => {
+  const requiredParams = ['userID', 'date', 'numOunces'];
+  const newHydrationEntry = req.body;
+  checkUserExists(newHydrationEntry.userID, res);
+  checkHasAllParams(requiredParams, newHydrationEntry, res);
+
+  app.locals.hydration.hydrationData.push(newHydrationEntry);
+  res.status(201).json(newHydrationEntry);
+});
+
+app.post('/api/v1/activity', (req, res) => {
+  const requiredParams = ['userID', 'date', 'flightsOfStairs', 'minutesActive', 'numSteps'];
+  const newActivityEntry = req.body;
+  checkUserExists(newActivityEntry.userID, res);
+  checkHasAllParams(requiredParams, newActivityEntry, res);
+
+  app.locals.activity.activityData.push(newActivityEntry);
+  res.status(201).json(newActivityEntry);
+});
 
 function checkUserExists(userID, response) {
-  const user = users.userData.find(user => user['id'] === userID)
+  const user = users.userData.find(user => user.id === userID)
   if (!user) {
     return response.status(422).json({
       message: `No user found with ID of ${userID}`
@@ -58,15 +75,14 @@ function checkUserExists(userID, response) {
 }
 
 function checkHasAllParams(requiredParams, newData, response) {
-  for (let requiredParam of requiredParams) {
-    if (newData[requiredParameter] === undefined) {
+  for (let i = 0; i < requiredParams.length; i++) {
+    if (newData[requiredParams[i]] === undefined) {
       return response.status(422).json({
-        message: `You are missing a required parameter of ${requiredParameter}`
+        message: `You are missing a required parameter of ${requiredParams[i]}`
       });
     }
   }
 }
-
 
 app.listen(port, () => {
   console.log(`${app.locals.title} is now running on http://localhost:${port} !`)
