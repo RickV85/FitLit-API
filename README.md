@@ -1,4 +1,4 @@
-# fitlit-api
+# Fitlit-api
 
 This repo was created to be used with the wc-refactor-tractor project.
 
