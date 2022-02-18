@@ -69651,350 +69651,350 @@ const activityData = [
   },
   {
     "userID": 1,
-    "date": "2020/01/22",
+    "date": "2022/01/22",
     "numSteps": 6770,
     "minutesActive": 97,
     "flightsOfStairs": 47
   },
   {
     "userID": 2,
-    "date": "2020/01/22",
+    "date": "2022/01/22",
     "numSteps": 12131,
     "minutesActive": 86,
     "flightsOfStairs": 13
   },
   {
     "userID": 3,
-    "date": "2020/01/22",
+    "date": "2022/01/22",
     "numSteps": 7280,
     "minutesActive": 94,
     "flightsOfStairs": 15
   },
   {
     "userID": 4,
-    "date": "2020/01/22",
+    "date": "2022/01/22",
     "numSteps": 4337,
     "minutesActive": 135,
     "flightsOfStairs": 21
   },
   {
     "userID": 5,
-    "date": "2020/01/22",
+    "date": "2022/01/22",
     "numSteps": 12065,
     "minutesActive": 102,
     "flightsOfStairs": 34
   },
   {
     "userID": 6,
-    "date": "2020/01/22",
+    "date": "2022/01/22",
     "numSteps": 3278,
     "minutesActive": 133,
     "flightsOfStairs": 30
   },
   {
     "userID": 7,
-    "date": "2020/01/22",
+    "date": "2022/01/22",
     "numSteps": 3569,
     "minutesActive": 281,
     "flightsOfStairs": 42
   },
   {
     "userID": 8,
-    "date": "2020/01/22",
+    "date": "2022/01/22",
     "numSteps": 12392,
     "minutesActive": 145,
     "flightsOfStairs": 44
   },
   {
     "userID": 9,
-    "date": "2020/01/22",
+    "date": "2022/01/22",
     "numSteps": 12899,
     "minutesActive": 275,
     "flightsOfStairs": 9
   },
   {
     "userID": 10,
-    "date": "2020/01/22",
+    "date": "2022/01/22",
     "numSteps": 4914,
     "minutesActive": 147,
     "flightsOfStairs": 18
   },
   {
     "userID": 11,
-    "date": "2020/01/22",
+    "date": "2022/01/22",
     "numSteps": 9347,
     "minutesActive": 190,
     "flightsOfStairs": 23
   },
   {
     "userID": 12,
-    "date": "2020/01/22",
+    "date": "2022/01/22",
     "numSteps": 8555,
     "minutesActive": 297,
     "flightsOfStairs": 16
   },
   {
     "userID": 13,
-    "date": "2020/01/22",
+    "date": "2022/01/22",
     "numSteps": 11914,
     "minutesActive": 253,
     "flightsOfStairs": 39
   },
   {
     "userID": 14,
-    "date": "2020/01/22",
+    "date": "2022/01/22",
     "numSteps": 10193,
     "minutesActive": 149,
     "flightsOfStairs": 14
   },
   {
     "userID": 15,
-    "date": "2020/01/22",
+    "date": "2022/01/22",
     "numSteps": 6514,
     "minutesActive": 31,
     "flightsOfStairs": 1
   },
   {
     "userID": 16,
-    "date": "2020/01/22",
+    "date": "2022/01/22",
     "numSteps": 11097,
     "minutesActive": 212,
     "flightsOfStairs": 24
   },
   {
     "userID": 17,
-    "date": "2020/01/22",
+    "date": "2022/01/22",
     "numSteps": 3196,
     "minutesActive": 59,
     "flightsOfStairs": 44
   },
   {
     "userID": 18,
-    "date": "2020/01/22",
+    "date": "2022/01/22",
     "numSteps": 13909,
     "minutesActive": 53,
     "flightsOfStairs": 20
   },
   {
     "userID": 19,
-    "date": "2020/01/22",
+    "date": "2022/01/22",
     "numSteps": 13277,
     "minutesActive": 203,
     "flightsOfStairs": 35
   },
   {
     "userID": 20,
-    "date": "2020/01/22",
+    "date": "2022/01/22",
     "numSteps": 3177,
     "minutesActive": 267,
     "flightsOfStairs": 38
   },
   {
     "userID": 21,
-    "date": "2020/01/22",
+    "date": "2022/01/22",
     "numSteps": 3657,
     "minutesActive": 252,
     "flightsOfStairs": 21
   },
   {
     "userID": 22,
-    "date": "2020/01/22",
+    "date": "2022/01/22",
     "numSteps": 11041,
     "minutesActive": 252,
     "flightsOfStairs": 5
   },
   {
     "userID": 23,
-    "date": "2020/01/22",
-    "numSteps": 11541,
+    "date": "2022/01/22",
+    "numSteps": 0,
     "minutesActive": 270,
     "flightsOfStairs": 46
   },
   {
     "userID": 24,
-    "date": "2020/01/22",
+    "date": "2022/01/22",
     "numSteps": 13112,
     "minutesActive": 68,
     "flightsOfStairs": 16
   },
   {
     "userID": 25,
-    "date": "2020/01/22",
+    "date": "2022/01/22",
     "numSteps": 4446,
     "minutesActive": 29,
     "flightsOfStairs": 11
   },
   {
     "userID": 26,
-    "date": "2020/01/22",
+    "date": "2022/01/22",
     "numSteps": 6550,
     "minutesActive": 97,
     "flightsOfStairs": 39
   },
   {
     "userID": 27,
-    "date": "2020/01/22",
+    "date": "2022/01/22",
     "numSteps": 7823,
     "minutesActive": 102,
     "flightsOfStairs": 19
   },
   {
     "userID": 28,
-    "date": "2020/01/22",
+    "date": "2022/01/22",
     "numSteps": 10171,
     "minutesActive": 145,
     "flightsOfStairs": 23
   },
   {
     "userID": 29,
-    "date": "2020/01/22",
+    "date": "2022/01/22",
     "numSteps": 5062,
     "minutesActive": 197,
     "flightsOfStairs": 8
   },
   {
     "userID": 30,
-    "date": "2020/01/22",
+    "date": "2022/01/22",
     "numSteps": 9805,
     "minutesActive": 110,
     "flightsOfStairs": 16
   },
   {
     "userID": 31,
-    "date": "2020/01/22",
+    "date": "2022/01/22",
     "numSteps": 5583,
     "minutesActive": 51,
     "flightsOfStairs": 46
   },
   {
     "userID": 32,
-    "date": "2020/01/22",
+    "date": "2022/01/22",
     "numSteps": 9071,
     "minutesActive": 72,
     "flightsOfStairs": 10
   },
   {
     "userID": 33,
-    "date": "2020/01/22",
+    "date": "2022/01/22",
     "numSteps": 12816,
     "minutesActive": 73,
     "flightsOfStairs": 13
   },
   {
     "userID": 34,
-    "date": "2020/01/22",
+    "date": "2022/01/22",
     "numSteps": 10248,
     "minutesActive": 110,
     "flightsOfStairs": 21
   },
   {
     "userID": 35,
-    "date": "2020/01/22",
+    "date": "2022/01/22",
     "numSteps": 5326,
     "minutesActive": 182,
     "flightsOfStairs": 38
   },
   {
     "userID": 36,
-    "date": "2020/01/22",
+    "date": "2022/01/22",
     "numSteps": 6469,
     "minutesActive": 185,
     "flightsOfStairs": 14
   },
   {
     "userID": 37,
-    "date": "2020/01/22",
+    "date": "2022/01/22",
     "numSteps": 3468,
     "minutesActive": 149,
     "flightsOfStairs": 48
   },
   {
     "userID": 38,
-    "date": "2020/01/22",
+    "date": "2022/01/22",
     "numSteps": 12791,
     "minutesActive": 38,
     "flightsOfStairs": 12
   },
   {
     "userID": 39,
-    "date": "2020/01/22",
+    "date": "2022/01/22",
     "numSteps": 10025,
     "minutesActive": 201,
     "flightsOfStairs": 3
   },
   {
     "userID": 40,
-    "date": "2020/01/22",
+    "date": "2022/01/22",
     "numSteps": 6046,
     "minutesActive": 32,
     "flightsOfStairs": 8
   },
   {
     "userID": 41,
-    "date": "2020/01/22",
+    "date": "2022/01/22",
     "numSteps": 13940,
     "minutesActive": 202,
     "flightsOfStairs": 7
   },
   {
     "userID": 42,
-    "date": "2020/01/22",
+    "date": "2022/01/22",
     "numSteps": 6292,
     "minutesActive": 40,
     "flightsOfStairs": 7
   },
   {
     "userID": 43,
-    "date": "2020/01/22",
+    "date": "2022/01/22",
     "numSteps": 13814,
     "minutesActive": 207,
     "flightsOfStairs": 42
   },
   {
     "userID": 44,
-    "date": "2020/01/22",
+    "date": "2022/01/22",
     "numSteps": 7381,
     "minutesActive": 72,
     "flightsOfStairs": 29
   },
   {
     "userID": 45,
-    "date": "2020/01/22",
+    "date": "2022/01/22",
     "numSteps": 5903,
     "minutesActive": 277,
     "flightsOfStairs": 44
   },
   {
     "userID": 46,
-    "date": "2020/01/22",
+    "date": "2022/01/22",
     "numSteps": 6659,
     "minutesActive": 205,
     "flightsOfStairs": 49
   },
   {
     "userID": 47,
-    "date": "2020/01/22",
+    "date": "2022/01/22",
     "numSteps": 8623,
     "minutesActive": 187,
     "flightsOfStairs": 50
   },
   {
     "userID": 48,
-    "date": "2020/01/22",
+    "date": "2022/01/22",
     "numSteps": 5271,
     "minutesActive": 218,
     "flightsOfStairs": 46
   },
   {
     "userID": 49,
-    "date": "2020/01/22",
+    "date": "2022/01/22",
     "numSteps": 5761,
     "minutesActive": 70,
     "flightsOfStairs": 15
   },
   {
     "userID": 50,
-    "date": "2020/01/22",
+    "date": "2022/01/22",
     "numSteps": 6603,
     "minutesActive": 96,
     "flightsOfStairs": 31
