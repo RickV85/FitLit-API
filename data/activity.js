@@ -69890,7 +69890,7 @@ const activityData = [
   {
     "userID": 35,
     "date": "2022/01/22",
-    "numSteps": 5326,
+    "numSteps": 0,
     "minutesActive": 182,
     "flightsOfStairs": 38
   },
@@ -69969,7 +69969,7 @@ const activityData = [
     "date": "2022/01/22",
     "numSteps": 6659,
     "minutesActive": 205,
-    "flightsOfStairs": 49
+    "flightsOfStairs": 0
   },
   {
     "userID": 47,
@@ -69988,14 +69988,14 @@ const activityData = [
   {
     "userID": 49,
     "date": "2022/01/22",
-    "numSteps": 5761,
+    "numSteps": 0,
     "minutesActive": 70,
     "flightsOfStairs": 15
   },
   {
     "userID": 50,
     "date": "2022/01/22",
-    "numSteps": 6603,
+    "numSteps": 0,
     "minutesActive": 96,
     "flightsOfStairs": 31
   }
